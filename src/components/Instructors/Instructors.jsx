@@ -12,14 +12,14 @@ function Instructors() {
     return (
         <section id="instructors" className="bg-black text-white">
             <Container>
-                <h2 className="text-center display-4 fw-bold mb-5">EQUIPO <span style={{ color: '#d63384' }}>POLARITY</span></h2>
+                <h2 className="text-center display-4 fw-bold mb-5">EQUIPO <span className="text-neon-gradient">POLARITY</span></h2>
                 <Row className="justify-content-center">
                     {instructors.map((inst, idx) => (
                         <Col md={4} className="text-center mb-4" key={idx}>
                             <div className="mb-3">
                                 <img src={inst.img} alt={inst.name} className="rounded-circle border border-2 border-danger p-1" style={{ width: '150px', height: '150px', objectFit: 'cover', borderColor: '#d63384 !important' }} />
                             </div>
-                            <h4 className="fw-bold">{inst.name}</h4>
+                            <h4 className="fw-bold text-neon-pink">{inst.name}</h4>
                             <p className="text-white-50">{inst.role}</p>
                         </Col>
                     ))}

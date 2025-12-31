@@ -10,7 +10,7 @@ function Contact() {
             <Container>
                 <Row className="justify-content-center">
                     <Col md={8} lg={6}>
-                        <h2 className="text-center display-4 fw-bold mb-4">CONTACTO</h2>
+                        <h2 className="text-center display-4 fw-bold mb-4 text-neon-gradient">CONTACTO</h2>
                         <p className="text-center text-white-50 mb-5">
                             ¿Tienes dudas o quieres inscribirte? Envíanos un mensaje.
                         </p>

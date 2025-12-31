@@ -30,14 +30,14 @@ function Classes() {
     return (
         <section id="classes" style={{ backgroundColor: '#121212' }}>
             <Container>
-                <h2 className="text-center display-4 fw-bold mb-5 text-white">NUESTRAS <span style={{ color: '#d63384' }}>CLASES</span></h2>
+                <h2 className="text-center display-4 fw-bold mb-5 text-white">NUESTRAS <span className="text-neon-gradient">CLASES</span></h2>
                 <Row>
                     {classesData.map((cls, idx) => (
                         <Col md={6} lg={3} className="mb-4" key={idx}>
                             <Card className="h-100 bg-black border-secondary text-white shadow-sm hover-effect">
                                 <Card.Img variant="top" src={cls.img} style={{ height: '200px', objectFit: 'cover', opacity: 0.8 }} />
                                 <Card.Body>
-                                    <Card.Title className="fw-bold" style={{ color: '#d63384' }}>{cls.title}</Card.Title>
+                                    <Card.Title className="fw-bold text-neon-pink">{cls.title}</Card.Title>
                                     <Card.Text className="text-white-50">
                                         {cls.description}
                                     </Card.Text>
