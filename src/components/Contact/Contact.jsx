@@ -1,0 +1,46 @@
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
+
+function Contact() {
+    return (
+        <section id="contact" className="bg-dark text-white">
+            <Container>
+                <Row className="justify-content-center">
+                    <Col md={8} lg={6}>
+                        <h2 className="text-center display-4 fw-bold mb-4">CONTACTO</h2>
+                        <p className="text-center text-white-50 mb-5">
+                            ¿Tienes dudas o quieres inscribirte? Envíanos un mensaje.
+                        </p>
+                        <Form>
+                            <Form.Group className="mb-3" controlId="formName">
+                                <Form.Label>Nombre</Form.Label>
+                                <Form.Control type="text" placeholder="Tu nombre" className="bg-black text-white border-secondary" />
+                            </Form.Group>
+
+                            <Form.Group className="mb-3" controlId="formEmail">
+                                <Form.Label>Email</Form.Label>
+                                <Form.Control type="email" placeholder="name@example.com" className="bg-black text-white border-secondary" />
+                            </Form.Group>
+
+                            <Form.Group className="mb-3" controlId="formMessage">
+                                <Form.Label>Mensaje</Form.Label>
+                                <Form.Control as="textarea" rows={4} placeholder="Tu mensaje..." className="bg-black text-white border-secondary" />
+                            </Form.Group>
+
+                            <div className="text-center">
+                                <Button variant="primary" size="lg" className="px-5 rounded-pill" style={{ backgroundColor: '#d63384', border: 'none' }}>
+                                    Enviar
+                                </Button>
+                            </div>
+                        </Form>
+                    </Col>
+                </Row>
+            </Container>
+        </section>
+    );
+}
+
+export default Contact;

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Oswald:wght@400;700&display=swap');
+
+/* Global Styles for Polarity Web */
+:root {
+  --primary-color: #d63384;
+  /* Hot Pink / Magenta */
+  --secondary-color: #6f42c1;
+  /* Purple */
+  --dark-bg: #121212;
+  --darker-bg: #000000;
+  --light-text: #f8f9fa;
+  --accent-color: #0dcaf0;
+  /* Cyan */
+  --font-main: 'Montserrat', sans-serif;
+  --font-heading: 'Oswald', sans-serif;
+}
+
+body {
+  background-color: var(--dark-bg);
+  color: var(--light-text);
+  font-family: var(--font-main);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-nav .nav-link,
+.btn {
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+  transition: all 0.3s ease;
+  font-size: 1.3rem;
+  /* Larger text */
+  font-weight: 700;
+  /* Thicker for neon effect */
+}
+
+.navbar-nav .nav-link:hover {
+  background: linear-gradient(45deg, #ff85c1, #a685e2);
+  /* Lighter/Pastel versions of Pink/Purple */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+  filter: drop-shadow(0 0 6px rgba(214, 51, 132, 0.4));
+  /* Soft pink glow with opacity */
+  transform: scale(1.1);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+/* Section Padding */
+section {
+  padding: 80px 0;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--darker-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-color);
+}
+
+/* Logo Hover Effect - Stronger */
+.navbar-brand-logo {
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  /* Bouncy transition */
+}
+
+.navbar-brand-logo:hover {
+  transform: scale(1.15) !important;
+  /* Significant enlargement */
+  filter: saturate(1.5) brightness(1.2) drop-shadow(0 0 10px rgba(214, 51, 132, 0.6)) !important;
+  /* Glow and pop */
+  cursor: pointer;
+}
+
+/* Neon Text Utilities */
+.text-neon-gradient {
+  background: linear-gradient(45deg, rgba(255, 0, 204, 0.8), rgba(51, 51, 255, 0.8), rgba(255, 133, 193, 0.8));
+  /* Transparent Neon Pink, Blue/Purple, Light Pink */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 800;
+  filter: drop-shadow(0 0 2px rgba(255, 0, 204, 0.3));
+  /* Softer glow */
+}
+
+.text-neon-pink {
+  color: #ff00cc;
+  text-shadow: 0 0 5px #ff00cc, 0 0 10px #ff00cc;
+}
+
+.text-neon-purple {
+  color: #bd00ff;
+  text-shadow: 0 0 5px #bd00ff, 0 0 10px #bd00ff;
+}
