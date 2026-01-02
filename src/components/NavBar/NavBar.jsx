@@ -8,7 +8,7 @@ function NavBar() {
         <Navbar expand="lg" className="navbar-dark bg-transparent fixed-top" style={{ backdropFilter: 'blur(10px)' }}>
             <Container>
                 <Navbar.Brand href="#home" className="d-flex align-items-center">
-                    <img src={logo} alt="Polarity Logo" height="150" className="d-inline-block align-top navbar-brand-logo" style={{ borderRadius: '15px', opacity: '0.9', filter: 'saturate(1.3)' }} />
+                    <img src={logo} alt="Polarity Logo" height="110" className="d-inline-block align-top navbar-brand-logo" style={{ borderRadius: '15px', opacity: '0.9', filter: 'saturate(1.3)' }} />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -16,7 +16,7 @@ function NavBar() {
                         <Nav.Link href="#home" className="px-3 text-white">Inicio</Nav.Link>
                         <Nav.Link href="#about" className="px-3 text-white">El Estudio</Nav.Link>
                         <Nav.Link href="#classes" className="px-3 text-white">Clases</Nav.Link>
-                        <Nav.Link href="#instructors" className="px-3 text-white">Instructores</Nav.Link>
+                        <Nav.Link href="#instructors" className="px-3 text-white">Staff</Nav.Link>
                         <Nav.Link href="#contact" className="px-3 text-white">Contacto</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

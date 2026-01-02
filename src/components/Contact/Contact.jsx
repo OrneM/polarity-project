@@ -53,17 +53,6 @@ function Contact() {
                                 />
                             </Form.Group>
 
-                            <Form.Group className="mb-3" controlId="formEmail">
-                                <Form.Label>Email</Form.Label>
-                                <Form.Control
-                                    type="email"
-                                    placeholder="name@example.com"
-                                    className="bg-black text-white border-secondary"
-                                    value={formData.email}
-                                    onChange={handleChange}
-                                />
-                            </Form.Group>
-
                             <Form.Group className="mb-3" controlId="formMessage">
                                 <Form.Label>Mensaje</Form.Label>
                                 <Form.Control

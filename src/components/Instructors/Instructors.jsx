@@ -6,7 +6,7 @@ function Instructors() {
     return (
         <section id="instructors" className="bg-black text-white">
             <Container>
-                <h2 className="text-center display-4 fw-bold mb-5">EQUIPO <span className="text-neon-gradient">POLARITY</span></h2>
+                <h2 className="text-center display-4 fw-bold mb-5"> SOMOS <span className="text-neon-gradient">POLARITY</span></h2>
                 <Row className="justify-content-center align-items-center">
                     <Col md={5} className="text-center mb-4 mb-md-0">
                         <div className="mx-auto rounded-4 shadow-lg" style={{

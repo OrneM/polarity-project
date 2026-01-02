@@ -49,6 +49,24 @@ function Classes() {
                         </Col>
                     ))}
                 </Row>
+
+                <div className="mt-5 pt-4">
+                    <h3 className="text-center text-white-50 mb-4" style={{ letterSpacing: '2px', fontSize: '1.5rem' }}>PRÓXIMAMENTE</h3>
+                    <Row className="justify-content-center">
+                        <Col md={5} lg={4} className="mb-3">
+                            <div className="p-4 border border-secondary rounded text-center" style={{ background: 'rgba(255, 255, 255, 0.05)' }}>
+                                <h4 className="fw-bold text-white mb-2">Pilates Mat</h4>
+                                <p className="text-white-50 m-0">Fortalece tu centro y mejora tu postura.</p>
+                            </div>
+                        </Col>
+                        <Col md={5} lg={4} className="mb-3">
+                            <div className="p-4 border border-secondary rounded text-center" style={{ background: 'rgba(255, 255, 255, 0.05)' }}>
+                                <h4 className="fw-bold text-white mb-2">Aro (Lyra)</h4>
+                                <p className="text-white-50 m-0">Acrobacia aérea en aro. Fuerza y flexibilidad.</p>
+                            </div>
+                        </Col>
+                    </Row>
+                </div>
             </Container>
         </section>
     );

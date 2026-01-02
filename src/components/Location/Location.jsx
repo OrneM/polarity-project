@@ -10,7 +10,7 @@ function Location() {
                 <Row className="g-0">
                     <Col md={6} className="d-flex align-items-center justify-content-center bg-dark p-5">
                         <div>
-                            <h2 className="mb-4 fw-bold"><span className="text-neon-gradient">VÍSITANOS</span></h2>
+                            <h2 className="mb-4 fw-bold"><span className="text-neon-gradient">VISITANOS</span></h2>
                             <div className="d-flex mb-3">
                                 <FaMapMarkerAlt className="fs-4 me-3 text-secondary" />
                                 <div>
@@ -22,7 +22,7 @@ function Location() {
                                 <FaClock className="fs-4 me-3 text-secondary" />
                                 <div>
                                     <h5 className="fw-bold">Horarios</h5>
-                                    <p className="text-white-50">Lun - Vie: 9:00 - 21:00<br />Sáb: 10:00 - 14:00</p>
+                                    <p className="text-white-50">Lun - Vie: 9:00 - 21:00<br />Sáb: 10:00 - 19:00</p>
                                 </div>
                             </div>
                         </div>
