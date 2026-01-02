@@ -5,7 +5,7 @@ import { FaMapMarkerAlt, FaClock } from 'react-icons/fa';
 
 function Location() {
     return (
-        <section id="location" className="bg-black text-white pb-0">
+        <section id="location" className="bg-black text-white pb-0 mb-5">
             <Container fluid className="p-0">
                 <Row className="g-0">
                     <Col md={6} className="d-flex align-items-center justify-content-center bg-dark p-5">

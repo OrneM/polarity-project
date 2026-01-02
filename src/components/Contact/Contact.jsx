@@ -66,8 +66,21 @@ function Contact() {
                                 />
                             </Form.Group>
 
-                            <div className="text-center">
-                                <Button type="submit" variant="primary" size="lg" className="px-5 rounded-pill" style={{ backgroundColor: '#d63384', border: 'none' }}>
+                            <div className="text-center mb-5">
+                                <Button
+                                    type="submit"
+                                    variant="primary"
+                                    size="lg"
+                                    className="px-5 rounded-pill hero-btn-hover"
+                                    style={{
+                                        background: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) padding-box, linear-gradient(45deg, #ff00cc, #8a2be2) border-box',
+                                        border: '2px solid transparent',
+                                        fontSize: '1rem',
+                                        boxShadow: '0 0 15px rgba(255, 0, 204, 0.4)',
+                                        textTransform: 'uppercase',
+                                        letterSpacing: '2px'
+                                    }}
+                                >
                                     Enviar
                                 </Button>
                             </div>
