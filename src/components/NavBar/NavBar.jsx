@@ -16,8 +16,8 @@ function NavBar() {
                         <Nav.Link href="#home" className="px-3 text-white">Inicio</Nav.Link>
                         <Nav.Link href="#about" className="px-3 text-white">El Estudio</Nav.Link>
                         <Nav.Link href="#classes" className="px-3 text-white">Clases</Nav.Link>
-                        <Nav.Link href="#instructors" className="px-3 text-white">Instructoras</Nav.Link>
-                        <Nav.Link href="#contact" className="px-3 btn btn-outline-light rounded-pill ms-2">Contacto</Nav.Link>
+                        <Nav.Link href="#instructors" className="px-3 text-white">Instructores</Nav.Link>
+                        <Nav.Link href="#contact" className="px-3 text-white">Contacto</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
