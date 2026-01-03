@@ -45,7 +45,7 @@ function Hero() {
     );
 
     return (
-        <section id="home" className="d-flex align-items-center position-relative overflow-hidden" style={{ minHeight: '90vh', paddingTop: '80px', backgroundColor: 'black' }}>
+        <section id="home" className="d-flex align-items-center position-relative overflow-hidden" style={{ minHeight: '90vh', backgroundColor: 'black' }}>
             <Container fluid>
                 <Row className="align-items-center">
                     {/* Left Side (Desktop) / Top (Mobile): Text & Buttons for Desktop */}

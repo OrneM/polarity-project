@@ -32,7 +32,7 @@ function Location() {
                             src="https://maps.google.com/maps?q=Lobos+2495,+Castelar&t=&z=15&ie=UTF8&iwloc=&output=embed"
                             width="100%"
                             height="100%"
-                            style={{ border: 0, minHeight: '400px' }}
+                            style={{ border: 0, minHeight: '300px' }}
                             allowFullScreen=""
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"

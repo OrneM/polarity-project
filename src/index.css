@@ -24,6 +24,13 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Section Padding */
+section {
+  padding: 50px 0;
+  scroll-margin-top: 150px;
+  /* Offsets fixed navbar height */
+}
+
 h1,
 h2,
 h3,
@@ -102,17 +109,16 @@ a:hover {
   background: var(--secondary-color);
 }
 
-/* Logo Hover Effect - Stronger */
+/* Logo Styles & Hover Effect */
 .navbar-brand-logo {
+  height: 110px;
+  /* Default Desktop */
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  /* Bouncy transition */
 }
 
 .navbar-brand-logo:hover {
   transform: scale(1.15) !important;
-  /* Significant enlargement */
   filter: saturate(1.5) brightness(1.2) drop-shadow(0 0 10px rgba(214, 51, 132, 0.6)) !important;
-  /* Glow and pop */
   cursor: pointer;
 }
 
@@ -227,8 +233,16 @@ a:hover {
 
 @media (max-width: 991px) {
   .text-content-mobile-spacing {
-    margin-top: 10%;
+    margin-top: 30%;
   }
+
+  #home {
+    padding-top: 10% !important;
+  }
+}
+
+#home {
+  padding-top: 80px;
 }
 
 @media (max-width: 768px) {
@@ -258,4 +272,24 @@ a:hover {
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23ff00cc' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
   filter: drop-shadow(0 0 2px rgba(255, 0, 204, 0.5));
+}
+
+/* Mobile Navbar Adjustments */
+@media (max-width: 991px) {
+  .navbar-brand-logo {
+    height: 130px;
+    /* Larger on mobile as requested */
+  }
+
+  .navbar-toggler {
+    font-size: 0.8rem;
+    /* Smaller toggler */
+    padding: 0.25rem 0.5rem;
+    /* Reduced padding */
+  }
+
+  section {
+    scroll-margin-top: 180px;
+    /* Taller navbar offset for mobile */
+  }
 }

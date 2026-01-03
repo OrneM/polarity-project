@@ -8,7 +8,7 @@ function NavBar() {
         <Navbar expand="lg" className="navbar-dark bg-transparent fixed-top" style={{ backdropFilter: 'blur(10px)' }}>
             <Container>
                 <Navbar.Brand href="#home" className="d-flex align-items-center">
-                    <img src={logo} alt="Polarity Logo" height="110" className="d-inline-block align-top navbar-brand-logo" style={{ borderRadius: '15px', opacity: '0.9', filter: 'saturate(1.3)' }} />
+                    <img src={logo} alt="Polarity Logo" className="d-inline-block align-top navbar-brand-logo" style={{ borderRadius: '15px', opacity: '0.9', filter: 'saturate(1.3)' }} />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
