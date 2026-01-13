@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import pilatesInstructorImg from '../../assets/pilatesInstructor.jpg';
 
 function Instructors() {
     return (
@@ -32,6 +33,46 @@ function Instructors() {
                         <h4 className="h5 text-white-50 mb-4">Directora</h4>
                         <p className="lead">
                             Apasionada del pole en constante perfeccionamiento atlético. Ha tomado clases con Romix Bande, Daniela Adaro, Debi Paskwan, entre otros.
+                        </p>
+                    </Col>
+                </Row>
+
+                {/* Other Instructors Row */}
+                <Row className="justify-content-center align-items-center mt-5 pt-4">
+                    <Col md={5} className="text-center mb-4 mb-md-0 d-flex justify-content-center">
+                        <div className="mx-auto rounded-circle shadow-lg" style={{
+                            padding: '3px',
+                            background: 'linear-gradient(45deg, rgba(255, 0, 204, 0.8), rgba(138, 43, 226, 0.8))',
+                            boxShadow: '0 0 20px rgba(255, 0, 204, 0.6), 0 0 40px rgba(138, 43, 226, 0.4)',
+                            width: 'fit-content'
+                        }}>
+                            <div style={{ width: '180px', height: '180px' }}> {/* Slightly larger for better detail */}
+                                <img
+                                    src={pilatesInstructorImg}
+                                    alt="Mica Garibian"
+                                    className="w-100 h-100 rounded-circle"
+                                    style={{
+                                        objectFit: 'cover',
+                                        display: 'block'
+                                    }}
+                                />
+                            </div>
+                        </div>
+                    </Col>
+                    <Col md={7} className="text-center text-md-start">
+                        <h4 className="fw-bold mb-1">
+                            <a
+                                href="https://www.instagram.com/mica.garibian?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-neon-pink text-decoration-none hover-effect display-6"
+                            >
+                                Mica Garibian
+                            </a>
+                        </h4>
+                        <p className="text-white-50 small text-uppercase mb-2 h5">Instructora de Pilates</p>
+                        <p className="text-white lead">
+                            Especialista en movimiento consciente, fuerza y flexibilidad. Sus clases son el complemento perfecto para potenciar tu rendimiento en el pole.
                         </p>
                     </Col>
                 </Row>
