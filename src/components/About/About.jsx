@@ -50,7 +50,7 @@ function About() {
                         </p>
                         <h5 className="fw-bold mb-3 text-white">Contamos con:</h5>
                         <ul className="list-unstyled text-white-50 mb-4 ps-2">
-                            <li className="mb-2"><span className="text-neon-pink me-2">✦</span> Barras profesionales Maxpole</li>
+                            <li className="mb-2"><span className="text-neon-pink me-2">✦</span> Barras profesionales</li>
                             <li className="mb-2"><span className="text-neon-pink me-2">✦</span> Aire acondicionado</li>
                             <li className="mb-2"><span className="text-neon-pink me-2">✦</span> Wi-Fi</li>
                             <li className="mb-2"><span className="text-neon-pink me-2">✦</span> Vestuario</li>
