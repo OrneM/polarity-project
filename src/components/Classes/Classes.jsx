@@ -6,6 +6,7 @@ import sportImg from '../../assets/sport.jpg';
 import exoticImg from '../../assets/exotic.jpg';
 import giratorioImg from '../../assets/giratorio.jpg';
 import pilatesImg from '../../assets/pilates.jpg';
+import flexibilidadImg from '../../assets/flexibilidad.png';
 
 const classesData = [
     {
@@ -26,7 +27,7 @@ const classesData = [
     {
         title: "Flexibilidad",
         description: "Mejora tu rango de movimiento para trucos más avanzados y prevención de lesiones.",
-        img: "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?q=80&w=2069&auto=format&fit=crop"
+        img: flexibilidadImg
     },
     {
         title: "Pilates Mat",
@@ -70,6 +71,12 @@ function Classes() {
                             <div className="p-4 border border-secondary rounded text-center" style={{ background: 'rgba(255, 255, 255, 0.05)' }}>
                                 <h4 className="fw-bold text-white mb-2">Entrenamiento Funcional</h4>
                                 <p className="text-white-50 m-0">Mejora tu resistencia y fuerza para el día a día.</p>
+                            </div>
+                        </Col>
+                        <Col md={5} lg={4} className="mb-3">
+                            <div className="p-4 border border-secondary rounded text-center" style={{ background: 'rgba(255, 255, 255, 0.05)' }}>
+                                <h4 className="fw-bold text-white mb-2">Aro (Lira)</h4>
+                                <p className="text-white-50 m-0">Acrobacia aérea, fuerza y arte en suspensión.</p>
                             </div>
                         </Col>
                     </Row>
