@@ -53,7 +53,7 @@ function Hero() {
                         <div className="text-start ps-lg-5 ms-lg-5 text-content-mobile-spacing">
                             <h1 className="hero-title fw-bold">
                                 Descubrí tu fuerza<br />
-                                en Castelar.
+
                             </h1>
                             <div className="hero-subtitle mb-4">
                                 <p className="m-0">
