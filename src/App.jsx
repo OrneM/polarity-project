@@ -1,3 +1,4 @@
+import PromoBanner from './components/PromoBanner/PromoBanner';
 import NavBar from './components/NavBar/NavBar';
 import Hero from './components/Hero/Hero';
 import About from './components/About/About';
@@ -10,7 +11,10 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <>
-      <NavBar />
+      <div className="fixed-top">
+        <PromoBanner />
+        <NavBar />
+      </div>
       <Hero />
       <About />
       <Classes />

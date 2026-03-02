@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import sportImg from '../../assets/sport.jpg';
 import exoticImg from '../../assets/exotic.jpg';
+import zumbaImg from '../../assets/zumba.png';
 import giratorioImg from '../../assets/giratorio.jpg';
 import pilatesImg from '../../assets/pilates.jpg';
 import flexibilidadImg from '../../assets/flexibilidad.png';
@@ -33,6 +34,11 @@ const classesData = [
         title: "Pilates Mat",
         description: "Fortalece tu centro, mejora tu postura y trabaja el control corporal. Ideal para complementar tu entrenamiento.",
         img: pilatesImg
+    },
+    {
+        title: "Zumba",
+        description: "Ritmo, fitness y diversión en cada clase. Vení a bailar, sudar y llenarte de la mejor energía con nuestra profe Vany.",
+        img: zumbaImg
     }
 ];
 
@@ -63,14 +69,14 @@ function Classes() {
 
                         <Col md={5} lg={4} className="mb-3">
                             <div className="p-4 border border-secondary rounded text-center" style={{ background: 'rgba(255, 255, 255, 0.05)' }}>
-                                <h4 className="fw-bold text-white mb-2">Zumba</h4>
-                                <p className="text-white-50 m-0">Ritmo, diversión y cardio. ¡Baila y entrena!</p>
+                                <h4 className="fw-bold text-white mb-2">Entrenamiento Funcional</h4>
+                                <p className="text-white-50 m-0">Mejora tu resistencia y fuerza para el día a día.</p>
                             </div>
                         </Col>
                         <Col md={5} lg={4} className="mb-3">
                             <div className="p-4 border border-secondary rounded text-center" style={{ background: 'rgba(255, 255, 255, 0.05)' }}>
-                                <h4 className="fw-bold text-white mb-2">Entrenamiento Funcional</h4>
-                                <p className="text-white-50 m-0">Mejora tu resistencia y fuerza para el día a día.</p>
+                                <h4 className="fw-bold text-white mb-2">Danza Jazz</h4>
+                                <p className="text-white-50 m-0">Expresión, técnica y fluidez. Conectá con la música a través del movimiento.</p>
                             </div>
                         </Col>
                         <Col md={5} lg={4} className="mb-3">

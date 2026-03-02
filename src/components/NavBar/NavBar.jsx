@@ -5,7 +5,7 @@ import logo from '../../assets/logo-4.png';
 
 function NavBar() {
     return (
-        <Navbar expand="lg" className="navbar-dark bg-transparent fixed-top" style={{ backdropFilter: 'blur(10px)' }}>
+        <Navbar expand="lg" className="navbar-dark bg-transparent" style={{ backdropFilter: 'blur(10px)' }}>
             <Container>
                 <Navbar.Brand href="#home" className="d-flex align-items-center">
                     <img src={logo} alt="Polarity Logo" className="d-inline-block align-top navbar-brand-logo" style={{ borderRadius: '15px', opacity: '0.9', filter: 'saturate(1.3)' }} />

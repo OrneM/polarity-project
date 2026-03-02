@@ -237,12 +237,12 @@ a:hover {
   }
 
   #home {
-    padding-top: 10% !important;
+    padding-top: 15% !important;
   }
 }
 
 #home {
-  padding-top: 80px;
+  padding-top: 120px;
 }
 
 @media (max-width: 768px) {

@@ -58,7 +58,7 @@ function Hero() {
                             <div className="hero-subtitle mb-4">
                                 <p className="m-0">
                                     Un espacio climatizado diseñado para que conectes con tu cuerpo. <br className="d-none d-md-block" />
-                                    Desde Polesport y Exotic hasta Bachata y Pilates. <br className="d-none d-md-block" />
+                                    Desde Pole sport y Exotic hasta Zumba, Pilates y más. <br className="d-none d-md-block" />
                                     Unite a una comunidad real que celebra cada uno de tus logros.
                                 </p>
                             </div>
