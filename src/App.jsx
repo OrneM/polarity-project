@@ -1,3 +1,4 @@
+import Chatbot from './components/Chatbot/Chatbot';
 import PromoBanner from './components/PromoBanner/PromoBanner';
 import NavBar from './components/NavBar/NavBar';
 import Hero from './components/Hero/Hero';
@@ -22,6 +23,7 @@ function App() {
       <Location />
       <Contact />
       <Footer />
+      <Chatbot />
     </>
   )
 }
