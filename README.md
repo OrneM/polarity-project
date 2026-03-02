@@ -16,6 +16,8 @@ Este proyecto es una Single Page Application (SPA) moderna desarrollada con:
 - **[Vite 7](https://vitejs.dev/):** Entorno de desarrollo ultrarrápido y empaquetador para producción.
 - **[React Bootstrap](https://react-bootstrap.netlify.app/) & Vainilla CSS:** Sistema de grillas, componentes listos para usar y estilos personalizados para nuestra estética neón.
 - **[React Icons](https://react-icons.github.io/react-icons/):** Iconografía integrada y moderna.
+- **[Google GenAI / Gemini](https://ai.google.dev/):** Integración de inteligencia artificial para nuestro asistente virtual PolarityBot.
+- **Vercel Serverless Functions:** Backend ligero (`api/chat.js`) para peticiones seguras a la IA.
 
 ---
 
@@ -35,7 +37,14 @@ Sigue estos pasos para correr el proyecto en tu entorno local:
    npm install
    ```
 
-3. **Iniciar el servidor de desarrollo:**
+3. **Configurar el Asistente de IA (Variables de Entorno):**
+   Para probar localmente el chatbot (PolarityBot), necesitas una llave de Google Gemini.
+   Crea un archivo `.env.local` en la raíz del proyecto y agrega tu llave:
+   ```env
+   VITE_GEMINI_API_KEY=tu_clave_secreta_aqui
+   ```
+
+4. **Iniciar el servidor de desarrollo:**
    ```bash
    npm run dev
    ```
@@ -58,6 +67,7 @@ src/
 ├── assets/         # Imágenes, iconos y logos estáticos (fondos, instructores, favicon).
 ├── components/     # Componentes modulares y reutilizables de React.
 │   ├── About/      # Sección de "¿Quiénes somos?"
+│   ├── Chatbot/    # PolarityBot: Widget flotante de IA con conexión a Gemini.
 │   ├── Classes/    # Grilla de clases ofrecemos (Pole, Exotic, Pilates, etc.)
 │   ├── Hero/       # Portada principal de la web con call-to-action.
 │   └── Instructors/# Perfiles de nuestro equipo de instructoras.
@@ -77,6 +87,7 @@ El diseño se centra en la estética **Neon / Tech-Kawaii**:
 
 ---
 
-## ☁️ Despliegue (Deploy)
+## ☁️ Despliegue (Deploy) y SEO
 
-Actualmente, el proyecto está configurado para ser desplegado automáticamente en **Vercel** (`polarity-studio.vercel.app`). La configuración base en `vite.config.js` está optimizada para publicarse en la raíz del dominio principal.
+- **Despliegue:** El proyecto está configurado para ser desplegado automáticamente en **Vercel** (`polarity-studio.vercel.app`). La configuración base en `vite.config.js` está optimizada para publicarse en la raíz del dominio principal. Asegúrate de configurar la variable `VITE_GEMINI_API_KEY` en los ajustes (Environment Variables) de Vercel para que el bot de IA funcione en producción.
+- **SEO & Metadatos:** El sitio cuenta con metadatos optimizados para SEO Local (Zona Oeste, Castelar), incluyendo etiquetas Open Graph para previsualizaciones ricas en redes sociales (WhatsApp, Instagram), Twitter Cards y Structured Data (JSON-LD) de negocio local.
