@@ -52,13 +52,13 @@ function Hero() {
                     <Col lg={6} className="p-4 p-md-5 order-1 order-lg-1">
                         <div className="text-start ps-lg-5 ms-lg-5 text-content-mobile-spacing">
                             <h1 className="hero-title fw-bold">
-                                Descubrí tu fuerza.<br />
-                                Encontrá tu forma de brillar.
+                                Descubrí tu fuerza<br />
+                                en Castelar.
                             </h1>
                             <div className="hero-subtitle mb-4">
                                 <p className="m-0">
-                                    Un espacio climatizado diseñado para que conectes con tu cuerpo. <br className="d-none d-md-block" />
-                                    Desde Pole sport y Exotic hasta Zumba, Pilates y más. <br className="d-none d-md-block" />
+                                    Tu espacio para conectar y brillar en Zona Oeste. <br className="d-none d-md-block" />
+                                    Desde Pole Sport y Exotic hasta Zumba, Pilates y más. <br className="d-none d-md-block" />
                                     Unite a una comunidad real que celebra cada uno de tus logros.
                                 </p>
                             </div>
